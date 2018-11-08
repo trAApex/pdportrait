@@ -1,0 +1,86 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(105,105,105);
+    height: 56px;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar__logo {
+    margin-left: 1rem;
+}
+
+.toolbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.toolbar__logo a:hover{
+    text-decoration: none;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar_navigation-items ul li {
+    float: left;
+    padding: 0 0.5rem;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(105,105,105);
+    color: white;
+}
+
+.toolbar_navigation-items ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.toolbar_navigation-items ul li ul li {
+    display: none;
+    width: 150px;
+    height: 40px;
+    padding: 15px;
+}
+
+.toolbar_navigation-items ul li:hover ul li {
+    display: block;
+}
+
+.toolbar_navigation-items ul li ul li a{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .toolbar_navigation-items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+
+    .toolbar__logo {
+        margin-left: 0;
+    }
+}

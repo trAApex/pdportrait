@@ -1,0 +1,51 @@
+.container{
+    width: 90%;
+}
+
+.container li{
+    list-style-type: none;
+}
+
+.container .icons1 li {
+    display: inline-block;
+}
+
+.container li {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container li .telephone{
+    margin-left: 0px;
+}
+
+.container ul .facebook img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.container ul .instagram img{
+    width: 35px;
+    height: 35px;
+}
+
+.container ul .gmail img{
+    width: 35px;
+    height: 35px;
+}
+
+.container ul .telephone img{
+    width: 35px;
+    height: 35px;
+}
+
+.container ul .viber img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.availability{
+    text-align: center;
+}
